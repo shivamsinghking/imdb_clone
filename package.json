@@ -1,0 +1,22 @@
+{
+  "name": "imdb_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "set NODE_ENV=dev && nodemon --experimental-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"node --experimental-specifier-resolution=node index.js"
+  },
+  "author": "Shivam singh",
+  "license": "ISC"
+}
