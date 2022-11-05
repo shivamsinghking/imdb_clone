@@ -1,1 +1,0 @@
-export const MONGODB_KEYS = 'mongodb+srv://shivamsingh:shivam123@cluster0.jvljc.mongodb.net/?retryWrites=true&w=majority'
